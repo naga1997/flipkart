@@ -74,6 +74,7 @@ public class FlipFindby {
 	{
 		x.click();
 		loginHome.click();
+		Thread.sleep(5000);
 		Basetest bt=new Basetest();
 		usernamePopup.sendKeys(bt.getConfigValue("username"));
 		passwordPopup.sendKeys(bt.getConfigValue("password"));
